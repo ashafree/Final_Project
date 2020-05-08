@@ -1,0 +1,70 @@
+<htmnl>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>ShopFluffy</title>
+        <meta name="description" content="Final Project">
+        <meta name="author" content="ashley">
+
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+
+        <!-- <link rel="shortcut icon" type="image/png" href="./assets/wand.png" />
+        <link rel="shortcut icon" type="image/png" href="./wand.png" /> -->
+
+        <!-- <link rel="shortcut icon" type="image/png" href="./favicon.png"/> -->
+        
+    </head>
+
+    <body>
+
+    <div class="container">
+
+        <div class="logo">
+            <img src="./assets/cloud_logo.png" style="width: 800px; height: 230px;">
+        </div>
+
+        <div class="girl">
+            <img src="./assets/fluffy_girl.gif" style="width: 1020px; height: 900px;">
+        </div> 
+
+        <div class="playlist">
+            <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX3rxVfibe1L0" width="420" height="350" 
+            frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+
+        <div class="youtube">
+            <iframe width="420" height="260" src="https://www.youtube.com/embed/videoseries?list=PL_m_IrTwYPVgmuIvSa5KckC5o0MrKKDkS" 
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <button class="open-button" onclick="openForm()">Chat</button>
+
+        <button class="open-button" onclick="openForm()">Let's Chat</button>
+
+        <div class="chat-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+            <h2> Chat with Fam 💘 </h2>
+
+            <textarea placeholder="Type message.." name="msg" required></textarea>
+
+            <button type="submit" class="btn">Send</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close Me</button>
+        </form>
+        </div>
+
+        <div class="icon_box">
+            <a href="./pages/moodboard.html"><div class="cloud"><img src="./assets/moodboard_icon.png" style="width:65px; height:40px;"></div></a>
+            <div class="download"><img src="./assets/download.png" style="width:50px; height:45px;"></div>
+            <a href="https://www.instagram.com/shopfluffy/?hl=en" target="_blank"><div class="insta"><img src="./assets/insta.png" style="width:40px; height:40px;"></div></a>
+            <a href="https://www.shopfluffy.com/shop" target="_blank"><div class="website"><img src="./assets/star.png" style="width:50px; height:45px;"></div></a>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+    </body>
+
+</htmnl>
