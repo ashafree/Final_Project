@@ -3,7 +3,8 @@
 }
 
 body {
-    margin: 0;	
+    margin: 0;
+    cursor: url('../assets/wand.png'), auto;	
 }
 
 .container {
@@ -24,7 +25,7 @@ body {
 
 .arrow:hover {
     text-shadow: 4px 4px 7px #C002DA;
-  cursor: pointer;
+    cursor: url('../assets/wand.png'), auto;
 }
 
 .title {
@@ -146,7 +147,8 @@ body {
 }
 
 .draggable {
-    cursor: move;
+    /* cursor: move; */
+    cursor: url('../assets/wand.png'), auto;
 }
 
 @media screen and (max-width: 800px) {

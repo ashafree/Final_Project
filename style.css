@@ -56,7 +56,8 @@ html {
   color: white;
   padding: 16px 20px;
   border: none;
-  cursor: pointer;
+  /* cursor: pointer; */
+  cursor: url('./assets/wand.png'), auto;
   opacity: 0.8;
   position: fixed;
   bottom: 23px;
@@ -105,7 +106,8 @@ html {
   color: white;
   padding: 16px 20px;
   border: none;
-  cursor: pointer;
+  /* cursor: pointer; */
+  cursor: url('./assets/wand.png'), auto;
   width: 100%;
   margin-bottom: 10px;
   opacity: 0.8;
@@ -150,22 +152,26 @@ html {
 
 .cloud:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 #FFA31E;
-  cursor: pointer;
+  /* cursor: pointer; */
+  cursor: url('./assets/wand.png'), auto;
 }
 
 .download:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 #FFA31E;
-  cursor: pointer;
+  /* cursor: pointer; */
+  cursor: url('./assets/wand.png'), auto;
 }
 
 .insta:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 #FFA31E;
-  cursor: pointer;
+  /* cursor: pointer; */
+  cursor: url('./assets/wand.png'), auto;
 }
 
 .website:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 #FFA31E;
-  cursor: pointer;
+  /* cursor: pointer; */
+  cursor: url('./assets/wand.png'), auto;
 }
 
 
